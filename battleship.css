@@ -1,0 +1,199 @@
+div 
+{
+	margin: 8px;
+	display:inline-block;
+}
+span
+{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0px;
+	vertical-align:middle;
+	text-align:center;
+	border: 1px solid black;
+}
+/*Blank spans*/
+.blank
+{
+	opacity: 0;
+	
+}
+.yourTiles, .oppTiles, .W
+{
+	border: 1px solid black;
+	background-color: #00FFFF;
+	background-image:url("images/water.jpg");
+}
+
+#empty, #shipContainer
+{
+	width: 15%;
+	float: left;
+	clear: both;
+}
+
+.board
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+/*Both boards and ship container*/
+#boards
+{
+	display: block;
+	margin:0 auto;
+}
+#shipBoard 
+{
+	vertical-align:top;
+	border: 2px solid black;
+	width: 200px;
+	display:inline-block;
+	min-height:300px;
+}
+.A, .B, .D, .U, .P, .ships, .S
+{
+	width:50px;
+	border: 1px solid black;
+	background-color:gray;
+	color:black;
+	text-align:center;
+	font-size:30px;
+	line-height:90px;
+	background-image: none;
+}
+.no-top
+{
+	border-top-color: gray;
+}
+
+.no-bottom
+{
+	border-bottom-color: gray;
+}
+
+.no-left
+{
+	border-left-color: gray;
+}
+
+.no-right
+{
+	border-right-color: gray;
+}
+
+#P
+{
+	height:100px;
+}
+
+#D, #U
+{
+	height:150px;
+}
+#B
+{
+	height:200px;
+}
+
+#A
+{
+	height:250px;
+}
+
+.selected
+{
+	border:1px solid #FF0000;
+}
+
+#turn
+{
+	font-size: 28pt;
+	opacity:.8;
+	background-color:#2F4F4F;
+	color:white;
+}
+.coord
+{
+	background-color:#2F4F4F;
+	opacity:.8;
+	color:white;
+}
+.H
+{
+	background-color:gray; 
+	background-image:url("images/flame.gif");
+	background-position:center;
+}
+.M
+{
+	background-color: #2B547E; 
+	background-image:url("images/miss.png");	
+	background-position:center;
+}
+
+h1 
+{
+	text-align: center;
+	font-size: 48pt;
+	color: #2F4F4F;
+}
+#login 
+{
+	display: block;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	border: solid black 2px;
+	border-radius: 3px;
+	text-align: center;
+	padding: 5px;
+	background-color:#2F4F4F;
+	opacity:.8;
+}
+
+body 
+{
+	font-family: Verdana, sans-serif;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #2F4F4F;
+	text-align:center;
+}
+
+#yourName, #oppName
+{
+	/*display:block;*/
+	margin-left: auto;
+	margin-right: auto;
+	color: #2F4F4F;
+	font-size: 30pt;
+	/*background-color:#2F4F4F;
+	opacity:.8;*/
+	position:relative;
+}
+#yourName
+{
+	right:16%;
+}
+#oppName
+{
+	left:16%;
+}
+#ready
+{
+	position:relative;
+	right:10%;
+}
+.hidden
+{
+	display:none;
+}
+.hide
+{
+	visibility:hidden;
+}
